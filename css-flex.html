@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FlexGridTest</title>
+  <style>
+    .flex-container {
+      display:flex;
+      flex: 0 1 auto;
+      flex-direction: row;
+
+
+    }
+    .item {
+      background-color: #eee;
+      border: solid 2px indianred;
+      padding:10px;
+      font-size: 3em;
+      color: indigo;
+      font-weight: bold;
+
+    }
+    .flex1 {
+      display:flex;
+
+
+    }
+
+
+    .flex1 .item-1 {
+      flex: 100px 1;
+    }
+    .flex2 .item-1 {
+      flex-basis: 25%;
+      max-width: 25%;
+    }
+    .flex2 .item-2 {
+      flex-basis:50%;
+      max-width: 50%;
+    }
+    .flex2 .item-3 {
+      flex-basis: 25%;
+      max-width: 25%;
+    }
+    .flex2 {
+      display:flex;
+
+    }
+    .flex3 {
+      display:flex;
+
+    }
+    .flex3 .item-1 {
+      flex-basis: 20%;
+      max-width: 20%;
+    }
+    .flex3 .item-2 {
+      flex-basis: 80%;
+      max-width: 80%;
+    }
+    .flex4 {
+      display:flex;
+
+    }
+    .flex4 .item-1 {
+      flex-basis: 20%;
+      max-width: 20%;
+    }
+    .flex4 .item-2 {
+      flex-basis: 60%;
+      max-width: 60%;
+    }
+    .flex4 .item-3 {
+      flex-basis: 20%;
+      max-width: 20%;
+    }
+    .flex5 {
+      display:flex;
+
+    }
+    .flex5 .item-1 {
+      flex-basis: 33%;
+      max-width: 33%;
+    }
+    .flex5 .item-2 {
+      flex-basis: 66%;
+      max-width: 66%;
+    }
+    .flex6 {
+      display:flex;
+
+    }
+    .flex6 .item-1 {
+      flex-basis: 66%;
+      max-width: 66%;
+    }
+    .flex6 .item-2 {
+      flex-basis: 33%;
+      max-width: 33%;
+    }
+    .flex7 {
+      display:flex;
+
+    }
+    .flex7 .item-1 {
+      flex-basis: 25%;
+      max-width: 25%;
+    }
+    .flex7 .item-2 {
+      flex-basis: 75%;
+      max-width: 75%;
+    }
+  </style>
+</head>
+<body>
+  <p>100px / auto</p>
+  <div class="flex-container flex1">
+    <div class="item item-1">1</div>
+    <div class="item item-2">2</div>
+  </div>
+
+  <p>25 / 50 / 25</p>
+  <div class="flex-container flex2">
+    <div class="item item-1">1</div>
+    <div class="item item-2">2</div>
+    <div class="item item-3">3</div>
+  </div>
+
+  <p>20 / 80</p>
+  <div class="flex-container flex3">
+    <div class="item item-1">1</div>
+    <div class="item item-2">2</div>
+  </div>
+
+  <p>20 / 60 / 20</p>
+  <div class="flex-container flex4">
+    <div class="item item-1">1</div>
+    <div class="item item-2">2</div>
+    <div class="item item-3">3</div>
+  </div>
+
+  <p>33 / 66</p>
+  <div class="flex-container flex5">
+    <div class="item item-1">1</div>
+    <div class="item item-2">2</div>
+  </div>
+
+  <p>66 / 33</p>
+  <div class="flex-container flex6">
+    <div class="item item-1">1</div>
+    <div class="item item-2">2</div>
+  </div>
+
+  <p>25 / 75</p>
+  <div class="flex-container flex7">
+    <div class="item item-1">1</div>
+    <div class="item item-2">2</div>
+  </div>
+
+</body>
+</html>
