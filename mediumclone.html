@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Medium 1.0</title>
+  <style>
+    @import "https://yarnpkg.com/en/package/normalize.css";
+    .grid-container {
+      display:grid;
+      grid-gap: 20px;
+    }
+    .item {
+      border: 1px solid goldenrod;
+      padding: 5px;
+    }
+    .container-1 {
+      display: grid;
+      grid-template-columns: 6fr 3fr;
+    }
+    .container-2 {
+      display: grid;
+    }
+    .container-3 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 5px;
+    }
+    .container-4 {
+      display: grid;
+      grid-template-columns: 6fr 3fr;
+    }
+    .container-5 {
+      display: grid;
+      grid-template-columns: 6fr 3fr;
+    }
+  </style>
+</head>
+<body>
+  <p>Navbar / 60/30</p>
+  <div class="grid-container container-1">
+    <div class="item">1</div>
+    <div class="item">2</div>
+  </div>
+
+  <p>Hero</p>
+  <div class="grid-container container-2">
+    <div class="item">Hero</div>
+  </div>
+
+  <p>Trending Content 50/50</p>
+  <div class="grid-container container-3">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+    <div class="item">4</div>
+    <div class="item">5</div>
+    <div class="item">6</div>
+  </div>
+
+  <p>Main Content 66/33</p>
+  <div class="grid-container container-4">
+    <div class="item">
+      <div class="grid-container container-5">
+        <div class="item">a</div>
+        <div class="item">b</div>
+        <div class="item">c</div>
+        <div class="item">d</div>
+        <div class="item">e</div>
+        <div class="item">f</div>
+      </div>
+    </div>
+    <div class="item">1</div>
+  </div>
+</body>
+</html>
