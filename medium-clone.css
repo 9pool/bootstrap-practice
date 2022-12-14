@@ -1,0 +1,30 @@
+    @import "https://yarnpkg.com/en/package/normalize.css";
+
+    .grid-container {
+      display:grid;
+      grid-gap: 20px;
+    }
+    .item {
+      border: 1px solid goldenrod;
+      padding: 5px;
+    }
+    .container-1 {
+      display: grid;
+      grid-template-columns: 6fr 3fr;
+    }
+    .container-2 {
+      display: grid;
+    }
+    .container-3 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 5px;
+    }
+    .container-4 {
+      display: grid;
+      grid-template-columns: 6fr 3fr;
+    }
+    .container-5 {
+      display: grid;
+      grid-template-columns: 6fr 3fr;
+    }
