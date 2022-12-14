@@ -1,0 +1,95 @@
+    @import "https://yarnpkg.com/en/package/normalize.css";
+
+    .flex-container {
+      display:flex;
+      flex: 0 1 auto;
+      flex-direction: row;
+    }
+    .item {
+      background-color: #eee;
+      border: solid 2px indianred;
+      padding:10px;
+      font-size: 3em;
+      color: indigo;
+      font-weight: bold;
+    }
+    .flex1 {
+      display:flex;
+    }
+    .flex1 .item-1 {
+      flex: 100px 1;
+    }
+    .flex2 .item-1 {
+      flex-basis: 25%;
+      max-width: 25%;
+    }
+    .flex2 .item-2 {
+      flex-basis:50%;
+      max-width: 50%;
+    }
+    .flex2 .item-3 {
+      flex-basis: 25%;
+      max-width: 25%;
+    }
+    .flex2 {
+      display:flex;
+    }
+    .flex3 {
+      display:flex;
+    }
+    .flex3 .item-1 {
+      flex-basis: 20%;
+      max-width: 20%;
+    }
+    .flex3 .item-2 {
+      flex-basis: 80%;
+      max-width: 80%;
+    }
+    .flex4 {
+      display:flex;
+    }
+    .flex4 .item-1 {
+      flex-basis: 20%;
+      max-width: 20%;
+    }
+    .flex4 .item-2 {
+      flex-basis: 60%;
+      max-width: 60%;
+    }
+    .flex4 .item-3 {
+      flex-basis: 20%;
+      max-width: 20%;
+    }
+    .flex5 {
+      display:flex;
+    }
+    .flex5 .item-1 {
+      flex-basis: 33%;
+      max-width: 33%;
+    }
+    .flex5 .item-2 {
+      flex-basis: 66%;
+      max-width: 66%;
+    }
+    .flex6 {
+      display:flex;
+    }
+    .flex6 .item-1 {
+      flex-basis: 66%;
+      max-width: 66%;
+    }
+    .flex6 .item-2 {
+      flex-basis: 33%;
+      max-width: 33%;
+    }
+    .flex7 {
+      display:flex;
+    }
+    .flex7 .item-1 {
+      flex-basis: 25%;
+      max-width: 25%;
+    }
+    .flex7 .item-2 {
+      flex-basis: 75%;
+      max-width: 75%;
+    }
