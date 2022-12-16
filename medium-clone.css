@@ -1,5 +1,15 @@
     @import "https://yarnpkg.com/en/package/normalize.css";
-
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300;1,400&display=swap');
+    body {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      font-family:"Helvetica Neue", Helvetica, arial, "Open Sans", sans-serif;
+    }
+    p {
+      font-style: italic;
+      color: slategrey;
+    }
     .grid-container {
       display:grid;
       grid-gap: 20px;
@@ -11,9 +21,16 @@
     .container-1 {
       display: grid;
       grid-template-columns: 6fr 3fr;
+      background-color: #ffc017;
     }
     .container-2 {
       display: grid;
+      background-color: #ffc017;
+    }
+    .container-2 p {
+      color: black;
+      font-style: normal;
+
     }
     .container-3 {
       display: grid;
