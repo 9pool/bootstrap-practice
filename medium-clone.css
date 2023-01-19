@@ -17,6 +17,13 @@
       max-width: 1200px;
       margin: 0 auto;
     }
+    .hero p {
+      font-size: 24px;
+      line-height: 24px;
+      color: #292929;
+      font-weight: 400;
+      padding-bottom: 50px;
+    }
     p {
       font-style: italic;
       color: slategrey;
@@ -74,7 +81,20 @@
       border-radius: 99em;
     }
 
-
+    .header-start-reading-button {
+      background-color: black;
+      border: none;
+      color: whitesmoke;
+      padding: 7px 20px 9px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 99em;
+      font-size: 20px;
+      width: 213px;
+    }
     .hero {
       background-color: #ffc017;
       padding-top: 50px;
