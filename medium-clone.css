@@ -11,22 +11,39 @@
       font-weight: 400;
     }
     .section-outer {
-
+      border-bottom: 1px solid black;
     }
     .section-inner {
       max-width: 1200px;
       margin: 0 auto;
     }
+
     .hero p {
       font-size: 24px;
       line-height: 24px;
       color: #292929;
       font-weight: 400;
       padding-bottom: 50px;
+
     }
-    p {
-      font-style: italic;
+    .main-content p {
       color: slategrey;
+    }
+    .trending p {
+      font-weight: 700;
+      font-size: 16px;
+    }
+    .trending h3 {
+      letter-spacing: 0;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+    }
+    span {
+      font-size: 13px;
+      color: rgba(117, 117, 117, 1);
+      line-height: 20px;
+      font-weight: 400;
     }
     h1 {
       font-size: 106px;
@@ -99,6 +116,10 @@
       background-color: #ffc017;
       padding-top: 50px;
       padding-bottom: 50px;
+      background-image: url(/Users/jessievelasco/Pictures/medium-backgroundImage.png);
+      background-repeat: no-repeat;
+      background-position: right;
+      background-size: 45%;
     }
     .grid-container {
       display:grid;
@@ -133,6 +154,10 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
       padding: 5px;
+    }
+    .container-3 h4 {
+      font-weight: 500;
+      font-size: 13px;
     }
     .container-4 {
       display: grid;
