@@ -1,0 +1,11 @@
+@import "https://yarnpkg.com/en/package/normalize.css";
+
+    /*Footer*/
+
+    .footer-links {
+      color:#999;
+      display: inline-block;
+      text-decoration: none;
+      padding: 5px 10px;
+      font-size: 14px;
+    }
