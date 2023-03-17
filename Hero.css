@@ -1,22 +1,20 @@
-@import "https://yarnpkg.com/en/package/normalize.css";
+/* hero */
 
-    /*Hero*/
-
-    .hero {
-      background-color: #ffc017;
-      padding-top: 50px;
-      padding-bottom: 50px;
-      background-image: url(/Users/jessievelasco/Pictures/medium-backgroundImage.png);
-      background-repeat: no-repeat;
-      background-position: right;
-      background-size: 45%;
-    }
-    .hero p {
-      font-size: 24px;
-      line-height: 24px;
-      color: #292929;
-      font-weight: 400;
-      padding-bottom: 50px;
-      max-width: 425px;
-      margin: 0 auto 0 0;
-    }
+.hero {
+  background-color: #ffc017;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-image: url(/Users/jessievelasco/Pictures/medium-backgroundImage.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 45%;
+}
+.hero p {
+  font-size: 24px;
+  line-height: 24px;
+  color: #292929;
+  font-weight: 400;
+  padding-bottom: 50px;
+  max-width: 425px;
+  margin: 0 auto 0 0;
+}
