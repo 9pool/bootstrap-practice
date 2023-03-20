@@ -1,0 +1,29 @@
+/*buttons*/
+
+.header-get-started-button {
+  background-color: black;
+  border: none;
+  color: whitesmoke;
+  padding: 7px 16px 9px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 99em;
+}
+
+.header-start-reading-button {
+  background-color: black;
+  border: none;
+  color: whitesmoke;
+  padding: 7px 20px 9px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 99em;
+  font-size: 20px;
+  width: 213px;
+}
