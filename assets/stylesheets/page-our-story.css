@@ -1,0 +1,52 @@
+body {
+  padding-top: 100px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.item {
+  border: 1px solid crimson;
+  padding: 10px;
+}
+.grid-container {
+  padding: 10px;
+}
+.container1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.a-living-network-of-curious-minds {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.a-living-network-of-curious-minds-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.hundred-million-readers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.create-the-space {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.get-more-with-membership {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.read-and-reward {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.take-medium-with-you {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.learn-more {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
+}
+.read-write-expand {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
