@@ -17,30 +17,56 @@ body {
 .a-living-network-of-curious-minds {
   display: grid;
   grid-template-columns: 1fr;
+  background-color: #ffd1b9;
 }
 .a-living-network-of-curious-minds-items {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  background-color: #ffd1b9;
 }
 .hundred-million-readers {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  background-color: #000;
+  border-bottom-color: #fff;
+  color: #fff;
+}
+.carousel-half-circle {
+  height: 95%;
+  width: 75px;
+  margin-right: 5px;
+  margin-left: 5px;
+  border-radius: 100%;
+  background-color: #4479ff;
+}
+.carousel-small-circle {
+  width: 27px;
+  height: 85%;
+  margin-right: 0px;
+  margin-left: 5px;
+  border-radius: 100px;
+  background-color: #f55189;
 }
 .create-the-space {
   display: grid;
   grid-template-columns: 1fr;
+  background-color: #000;
+  color: #fff;
 }
 .get-more-with-membership {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  background-color: #34a245;
 }
 .read-and-reward {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  background-color: #34a245;
 }
 .take-medium-with-you {
   display: grid;
   grid-template-columns: 1fr;
+  background-color: #b6e5a4;
 }
 .learn-more {
   display: grid;
