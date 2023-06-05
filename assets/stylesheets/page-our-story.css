@@ -6,6 +6,10 @@ body {
 .item {
   padding: 10px;
 }
+header {
+  background-color: #fff;
+  z-index: 1;
+}
 .grid-container {
   padding: 10px;
 }
@@ -71,10 +75,12 @@ body {
   position: relative;
   margin-bottom: 20px;
   margin-top: 0;
+  padding-top: 20px;
   padding-bottom: 10px;
   font-size: 18px;
   line-height: 127%;
   font-weight: 400;
+  max-width: 650px;
 }
 .living-network-people {
   display: grid;
@@ -185,11 +191,11 @@ body {
   position: relative;
   text-align: center;
 }
-.create-the-space-green-button {
+/*.create-the-space-green-button {
   border-radius: 0px;
   color: #34a245;
   text-decoration: none;
-}
+}*/
 .get-more-with-membership {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -251,10 +257,53 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   background-color: #b6e5a4;
+  border-bottom: solid 1px #000;
+}
+.take-medium-h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-right: 0px;
+  padding-right: 0px;
+  color: #000;
+  font-size: 7.3vw;
+  line-height: 100%;
+  letter-spacing: -0.35vw;
+  display: block;
+}
+.take-medium-with-you p {
+  position: relative;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  color: #000;
+  font-size: 18px;
+  line-height: 127%;
+  font-weight: 400;
+  display: block;
+}
+.appstore {
+  margin-right: 20px;
+  display: inline-block;
+  max-width: 100%;
+  vertical-align: middle;
+  width: 167px;
+}
+.playstore {
+  margin-right:20px;
+  display: inline-block;
+  max-width: 100%;
+  vertical-align: middle;
+  width: 167px;
+}
+.graph {
+  float: right;
+  max-width: 100%;
+  width: 334px;
 }
 .learn-more {
   display: grid;
   grid-template-columns:1fr 1fr;
+  border-bottom: solid 1px #000;
 }
 .read-write-expand {
   display: grid;
