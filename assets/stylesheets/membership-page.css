@@ -1,0 +1,38 @@
+@import "https://yarnpkg.com/en/package/normalize.css";
+
+body {
+  padding-top: 100px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.grid-container {
+  display: grid;
+  grid-gap: 20px;
+  padding: 10px;
+}
+.item {
+  background-color: #eee;
+  border: 1px solid indianred;
+  padding: 10px;
+}
+.container1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  border-bottom: solid 1px ghostwhite;
+  border: solid 1px #000;
+}
+.container2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: solid 1px ghostwhite;
+}
+.container3 {
+  display: grid;
+  grid-template-columns: 1fr;
+  border: solid 1px ghostwhite;
+}
+.container4 {
+display: grid;
+grid-template-columns: 1fr;
+border: soild 1px ghostwhite;
+}
