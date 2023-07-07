@@ -36,3 +36,8 @@ display: grid;
 grid-template-columns: 1fr;
 border: soild 1px ghostwhite;
 }
+.footer .img {
+  height: 25px;
+  display: flex;
+  align-items: flex-start;
+}
