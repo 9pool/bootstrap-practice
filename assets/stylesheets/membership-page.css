@@ -1,0 +1,138 @@
+@import "https://yarnpkg.com/en/package/normalize.css";
+
+body {
+  padding-top: 100px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.grid-container {
+  display: grid;
+  grid-gap: 20px;
+/*  padding: 10px;*/
+}
+.item {
+  background-color: #eee;
+/*  border: 1px solid indianred;*/
+  padding: 10px;
+}
+.container1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  border-bottom: solid 1px ghostwhite;
+  border: solid 1px #000;
+  background-color: #4479ff;
+}
+.container1 .item {
+  background-color: #4479ff;
+}
+.fuel-great-thinking {
+  text-align: center;
+}
+.fuel-great-thinking .button-primary {
+  margin: 20px 0;
+}
+.container1 h2 {
+  color: #fff;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 0;
+  padding-right: 0;
+  padding-left: 0;
+  padding-bottom: 25px;
+  font-size: 7.3vw;
+  line-height: 100%;
+  font-weight: 400;
+  letter-spacing: -0.35vw;
+}
+.container1 p {
+  color: #fff;
+  text-align: center;
+}
+.container2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: solid 1px ghostwhite;
+  background-color: #4479ff;
+}
+.container2 .item {
+  background-color: #4479ff;
+  color: #fff;
+}
+.container2 h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 3.2vw;
+  font-weight: 400;
+  letter-spacing: -0.12vw;
+}
+.text-img1 {
+  width: 260px;
+  height: auto;
+  padding: 20px;
+}
+.text-img2 {
+  width: 260;
+  height: auto;
+  padding: 20px;
+}
+.container2 span {
+  color: #fff;
+  padding: 20px;
+  font-size: 18px;
+}
+.container3 {
+  display: grid;
+  grid-template-columns: 1fr;
+  border: solid 1px ghostwhite;
+  background-color:#fff;
+}
+.container3 .item {
+  background-color: #fff;
+}
+.container3 .h2-center-wrap {
+  color: #fff;
+}
+.container3 .header-2 {
+  color: black;
+}
+.container4 {
+  display: grid;
+  grid-template-columns: 1fr;
+  border: soild 1px ghostwhite;
+  background-color: #bcdfff;
+}
+.container4 .item {
+  background-color: #bcdfff;
+}
+.take-your-mind {
+  text-align: center;
+}
+
+.container4 h1 {
+  text-align: center;
+}
+.container5 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #fff;
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 24px 60px 24px 35px;
+  justify-content: space-between;
+  align-items: center;
+}
+.container5 .item {
+  background-color: #fff;
+}
+.medium-footer img {
+  width: 100px;
+  height: auto;
+}
+.medium-footer ul {
+  list-style: none;
+}
+.medium-footer li {
+  display: inline-block;
+  font-size: 10px;
+}
