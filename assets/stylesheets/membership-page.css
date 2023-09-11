@@ -88,9 +88,32 @@ body {
 }
 .container3 .item {
   background-color: #fff;
+  text-align: center;
 }
 .container3 .h2-center-wrap {
   color: #fff;
+}
+.carousel-half-circle {
+  display: inline-block;
+  height: 133px;
+  width: 75px;
+  background-color: #f55181;
+  margin-right: 5px;
+  margin-left: 5px;
+  border-radius: 100%;
+}
+.carousel-half-circle-2 {
+  display: inline-block;
+  height: 133px;
+  width: 75px;
+  background-color: #f55181;
+  margin-right: 5px;
+  margin-left: 5px;
+  border-radius: 100%;
+}
+.slide-img {
+  width: 150px;
+  height: auto;
 }
 .container3 .header-2 {
   color: black;
