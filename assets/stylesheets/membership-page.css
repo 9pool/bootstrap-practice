@@ -114,6 +114,7 @@ body {
 .slide-img {
   width: 150px;
   height: auto;
+  display: center;
 }
 .container3 .header-2 {
   color: black;
