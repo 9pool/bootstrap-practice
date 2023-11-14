@@ -111,10 +111,17 @@ body {
   margin-left: 5px;
   border-radius: 100%;
 }
+.carousel-slide-inner {
+  max-width: 700px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
 .slide-img {
   width: 150px;
   height: auto;
-  display: center;
+  text-align: right;
 }
 .container3 .header-2 {
   color: black;
