@@ -60,18 +60,19 @@ body {
 .container2 .item {
   background-color: #4479ff;
   color: #fff;
+  padding: 40px;
+  border-right: solid 1px #fff;
 }
 .container2 h2 {
   margin-top: 0px;
   margin-bottom: 0px;
-  font-size: 3.2vw;
+  font-size: 50px;
   font-weight: 400;
-  letter-spacing: -0.12vw;
 }
 .text-img1 {
   width: 260px;
   height: auto;
-  padding: 20px;
+  padding: 10px;
 }
 .text-img2 {
   width: 260;
@@ -82,6 +83,7 @@ body {
   color: #fff;
   padding: 20px;
   font-size: 18px;
+  max-width: 640px;
 }
 .container3 {
   display: grid;
@@ -153,6 +155,7 @@ body {
 
 .container4 h1 {
   text-align: center;
+  max-width: 700px;
 }
 .container5 {
   display: grid;
