@@ -5,6 +5,11 @@ body {
   max-width: 100%;
   margin: 0 auto;
 }
+.section-outer {
+  background-color: #4479ff;
+  border-bottom: solid 1px #fff;
+}
+
 .grid-container {
   display: grid;
   grid-gap: 20px;
@@ -154,8 +159,8 @@ body {
 }
 
 .container4 h1 {
-  text-align: center;
   max-width: 700px;
+  padding-left: 330px;
 }
 .container5 {
   display: grid;
