@@ -1,10 +1,22 @@
 @import "https://yarnpkg.com/en/package/normalize.css";
 
+/* generalized */
+
 body {
   padding-top: 100px;
   max-width: 100%;
   margin: 0 auto;
 }
+header li a {
+  color: white;
+}
+header img {
+  filter: invert(100%);
+}
+
+
+/* specifics */
+
 .section-outer {
   background-color: #4479ff;
   border-bottom: solid 1px #fff;
